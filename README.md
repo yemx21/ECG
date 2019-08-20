@@ -3,7 +3,7 @@ code workflow:
 (a) data prepration
 input: raw ECG sequences
 preprocessing steps:
-(1) extract R peaks 
+(1) extract R peaks
 (2) remove baseline from raw signals (see lines 210-222)
 (3) extract sliding window from the filtered ECG signals around each R peak, the observations are {90 past frames,  target frame, 89 frames}
 output: a 'dict' python object stored in pickle file format
